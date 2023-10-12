@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css" />
+      <title>Document</title>
+   </head>
+   <body>
+      <div class="mygrid">
+      <img class="spotifylogo" src="bilder/5ece4ff9123d6d0004ce5f89.png" alt="spotifylogo">
+      <h1>Registrera dig gratis för att börja<br />lyssna.</h1>
+      <button id="facebook">
+         <h2>Registrera dig med Facebook</h2>
+      </button>
+      <br>
+      <button id="Google">
+         <h2>Registrera dig med Google</h2>
+      </button>
+      <p class="hr-lines">eller</p>
+      <h2>Registrera dig med din e-postadress</h2>
+      <div class="email">
+         <h3>Vad är din e-postadress?</h3>
+         <form action="https://httpbin.org/anything" method="post"></form>
+         <input id="email" type="email" placeholder="Ange din e-postadress."/> 
+         <required/>
+         <label for="email"></label>
+      </div>
+      <div class="password">
+         <h3>Skapa ett lösenord</h3>
+         <form action="https://httpbin.org/anything" method="post"></form>
+         <input id="password" type="password" placeholder="Skapa ett lösenord." /> 
+         <required/>
+         <label for="password"></label>
+      </div>
+      <div class="username">
+         <h3>Vad ska vi kalla dig?</h3>
+         <form action="https://httpbin.org/anything" method="post"></form>
+         <input id="username" type="username" placeholder="Ange ett profilnamn." >
+         <required/>
+         <label for="username"></label>
+      </div>
+      <h6>Det här visas på din profil.</h6>
+      <div class="griddateofbirth">
+         <div class="item1">
+            <h3>Vad är ditt födelsedagsdatum?</h3>
+         </div>
+         <div class="yearcontainer"></div>
+         <form action="https://httpbin.org/anything" method="post"></form>
+         <input
+            id="year"
+            inputmode="numeric"
+            maxlength="4"
+            name="year"
+            pattern="(19[0-9]{2})|(200)[0-9]|(201)[0-0]"
+            placeholder="ÅÅÅÅ"
+            required=""
+            value=""
+            data-encore-id="formInput"
+            class="Input-sc-1gbx9xe-0 bWDBsa"
+            />
+         <select
+            id="month"
+            name="month"
+            required=""
+            aria-invalid="true"
+            class="Select-sc-3qvhho-0 izVMwE Month__StyledFormSelect-sc-1ghcdys-1 haLlND"
+            >
+            <option selected="" disabled="" value="">Månad</option>
+            <option value="01">Januari</option>
+            <option value="02">Februari</option>
+            <option value="03">Mars</option>
+            <option value="04">April</option>
+            <option value="05">Maj</option>
+            <option value="06">Juni</option>
+            <option value="07">Juli</option>
+            <option value="08">Augusti</option>
+            <option value="09">September</option>
+            <option value="10">Oktober</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+         </select>
+         <input
+            type="text"
+            aria-invalid="true"
+            id="day"
+            inputmode="numeric"
+            maxlength="2"
+            name="day"
+            pattern="((0?[1-9])|([12][0-9])|(3[01]))"
+            placeholder="DD"
+            required=""
+            value=""
+            data-encore-id="formInput"
+            class="Input-sc-1gbx9xe-0 eCxHdS"
+            />
+      </div>
+      <h3>Vad är ditt kön?</h3>
+      <div class="gendercontainer">
+         <div class="gender">
+            <form action="https://httpbin.org/anything" method="post"></form>
+            <label for="gender"></label>
+            <input type="radio" value="Man" name="gender" id="Man" />
+            <label for="Man"
+               >
+               <h8>Man</h8>
+            </label>
+            <label for="gender"></label>
+            <input type="radio" value="Kvinna" name="gender" id="Kvinna" />
+            <label
+               for="Kvinna">
+               <h8>Kvinna</h8>
+            </label
+               >
+            <label for="gender"></label>
+            <input
+               type="radio"
+               value="Icke-binär"
+               name="gender"
+               id="Icke-binär"
+               />
+            <label for="Icke-binär">
+               <h8>Icke-binär</h8>
+            </label>
+            <label for="gender"></label>
+            <input type="radio" value="Annat" name="gender" id="Annat" />
+            <label
+               for="Annat"
+               >
+               <h8>Annat</h8>
+            </label
+               >
+            <label for="gender"></label>
+            <input
+               type="radio"
+               value="Vill helst inte säga"
+               name="gender"
+               id="Vill helst inte säga"
+               />
+            <label for="Vill helst inte säga">
+               <h8>Vill helst inte säga</h8>
+            </label>
+         </div>
+      </div>
+      <div class="checkboxcontainer">
+      <div id="newsletter">
+      <form action="https://httpbin.org/anything" method="post"></form>
+      <div class="row">
+         <input type="checkbox" class="checky" 
+            value="newsletter"
+            name="newsletter"
+            id="newsletter"
+            />
+         <label for="newsletter">
+            <h9>Skicka nyheter och erbjudanden från Spotify till mig</h9>
+         </label>
+      </div>
+      <form action="https://httpbin.org/anything" method="post"></form>
+      <div class="row">
+      </div>
+      <div class="extrainfo">
+         <h9>Genom att klicka på Registrera dig samtycker du till Spotifys användarvillkor.<br><br>
+            Mer information om hur Spotify samlar in, använder, delar och skyddar dina personuppgifter finns i Spotifys inegritetspolicy.
+         </h9>
+      </div>
+      <div id="newsletter">
+         <form action="https://httpbin.org/anything" method="post"></form>
+         <div class="row">
+            <input type="checkbox" class="checky" 
+               value="newsletter"
+               name="newsletter"
+               id="newsletter"
+               />
+            <label for="newsletter">
+               <h9>Skicka nyheter och erbjudanden från Spotify till mig</h9>
+            </label>
+         </div>
+         <form action="https://httpbin.org/anything" method="post"></form>
+         <div class="row">
+         </div>
+         <div class="extrainfo">
+            <h9>Dela min registreringsinformation med Spotifys innehållsleverantörer för marknadsföringsändamål. Observera att dina data kan överföras till ett land utanför
+               EES-området enligt vad som beskrivs i vår integritetspolicy.
+               Genom att klicka på Registrera dig samtycker du till Spotifys användarvillkor
+            </h9>
+         </div>
+         <button id="Registrera">
+            <h3>Registrera dig</h3>
+         </button>
+         <div class="loggain">
+            <h6>Har du ett konto? Logga in</h6>
+         </div>
+      </div>
+   </body>
+   </body>
+</html>
